@@ -11,4 +11,5 @@ Prerequisites:
 ```sh
 cargo build
 cargo test
+cargo xtask ci
 ```
