@@ -1,9 +1,10 @@
-use itertools::Itertools;
 use std::{
     collections::HashSet,
     env,
     io::{self, prelude::*},
 };
+
+use itertools::Itertools;
 
 type Result<T> = std::result::Result<T, Box<dyn std::error::Error>>;
 
