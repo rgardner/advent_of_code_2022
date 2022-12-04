@@ -2,6 +2,7 @@
 members = [
     "crates/day1",
     "crates/day2",
+    "crates/day3",
     "xtask",
 ]
 
@@ -12,3 +13,6 @@ homepage = "https://github.com/rgardner/advent_of_code_2022"
 repository = "https://github.com/rgardner/advent_of_code_2022"
 license = "MIT OR Apache-2.0"
 publish = false
+
+[workspace.dependencies]
+itertools = "0.10.5"
